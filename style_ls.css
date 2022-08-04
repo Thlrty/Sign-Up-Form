@@ -1,0 +1,51 @@
+/* This is the styling for the left section of the sheet*/
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: var(--txt);
+}
+
+.left_section {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 27.778vw;
+}
+.main_img {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 27.778vw;
+  border-radius: 2px;
+
+}
+.logo {
+  position: absolute;
+  top: 18.63vh;
+  left: 7.22vw;
+  font-size: 48px;
+  color: black;
+  font-weight: 550;
+}
+
+.bgl {
+  position: absolute;
+  top: 17vh;
+  left: 0;
+  height: 10vh;
+  width: 27.778vw;
+  background-color: white; 
+  opacity: 0.5;
+}
